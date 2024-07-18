@@ -1,11 +1,20 @@
 {
   "dependencies": {
     "@google-cloud/bigquery": "^7.8.0",
+    "@langchain/community": "^0.2.19",
+    "@langchain/core": "^0.2.17",
+    "@langchain/openai": "^0.2.4",
+    "cheerio": "^1.0.0-rc.12",
+    "colors": "^1.4.0",
     "dotenv": "^16.4.5",
     "fs": "^0.0.1-security",
+    "html-to-text": "^9.0.5",
+    "jsdom": "^24.1.0",
     "langchain": "^0.2.10",
     "node-fetch": "^3.3.2",
-    "pdf-parse": "^1.1.1"
+    "pdf-parse": "^1.1.1",
+    "playwright": "^1.45.2",
+    "readline-sync": "^1.4.10"
   },
   "name": "task_docembedding",
   "version": "1.0.0",
@@ -17,7 +26,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "devDependencies": {
-  }
+  "description": ""
 }
